@@ -10,7 +10,7 @@ function Projects() {
                     <h2 class="project-title">{p.title}</h2>
                     <p class="project-info">{p.description}</p>
                     <img class="project-img" src={p.image} alt={p.title}/>
-                    <p>{p.tags.map(p.tag)}</p>
+                    <p class="project-tags">{p.tags.map(p.tag)}</p>
                     <a href={p.source} class="project-repo">Code</a> 
                     <a href={p.visit} class="project-link">Source</a>
                 </li>
