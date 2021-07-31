@@ -1,0 +1,57 @@
+export const projects = [
+    {
+        title: 'CryptKnight',
+        description: "Track your favorite cyrpto currency pricing in real time and build a wallet showing how much crypt you currently own!",
+        image: '../../images/cryptoknight.png',
+        tags: ['JavaScript', 'jQuery', 'CSS'],
+        source: 'https://github.com/noreaster24/team-project-1',
+        visit: 'https://noreaster24.github.io/team-project-1/',
+        id: 0,
+    },
+    {
+        title: '',
+        description: "",
+        image: '',
+        tags: [''],
+        source: '',
+        visit: '',
+        id: 1,
+    },
+    {
+        title: '',
+        description: "",
+        image: '',
+        tags: [''],
+        source: '',
+        visit: '',
+        id: 2,
+    },
+    {
+        title: '',
+        description: "",
+        image: '',
+        tags: [''],
+        source: '',
+        visit: '',
+        id: 3,
+    },
+    {
+        title: '',
+        description: "",
+        image: '',
+        tags: [''],
+        source: '',
+        visit: '',
+        id: 4,
+    },
+    {
+        title: '',
+        description: "",
+        image: '',
+        tags: [''],
+        source: '',
+        visit: '',
+        id: 5,
+    }
+]
+
