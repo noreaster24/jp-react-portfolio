@@ -1,6 +1,7 @@
 import React from 'react';
 import coverImage from '../../assets/images/mb-hero.webp';
 
+
 function About() {
     return (
         <section id="about-me" className="my-5">

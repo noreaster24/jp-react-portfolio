@@ -1,3 +1,9 @@
+main {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 50px 30px;
+}
+
 :root {
   --primary-color: #062f4f;
   --secondary-color: #B82601;
@@ -5,14 +11,69 @@
   --accent-color: #43c0f6;
   --dark: #000000;
   --text-color: #F5F5F5;
+  --spacing-one: calc(1rem * 0.05);
+  --spacing-two: calc(1rem);
+  --spacing-four: calc(2rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
   margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  letter-spacing: .1em;
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary-color);
+  font-size: 18px;
+}
+
+.nav-bar {
+  flex-wrap:wrap;
+}
+
+.site-logo {
+  padding-left: 50px;
+  height: 5%;
+  width: 5%;
+  border-radius: 20px;
+}
+
+.header-JP {
+  flex-direction:row;
+  margin-left: 25px;
+  font-size: 2.25rem;
+}
+
+li {
+  list-style: none;
+}
+
+/* nav a:hover {
+  text-decoration: none;
+} */
+
+nav  li {
+  cursor: pointer;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
 }
 
 code {
@@ -22,19 +83,25 @@ code {
 #about-me {
   color: var(--text-color);
   /* align-items: center; */
-  font-size: 24px;
+  font-size: 1.75rem;
   padding: 20px;
+  margin: 5px 0;
+  line-height: 1.25;
 }
+
 
 img {
   border-radius: 20px;
 }
 
 #salutation {
-  font-size: 48px;
+  font-size: 2.25rem;
   font-weight: bold;
 }
 
 #contact-me {
   text-align: center;
 }
+
+
+
