@@ -18,6 +18,7 @@ main {
 
 * {
   box-sizing: border-box;
+  background-color: var(--primary-color);
 }
 
 html,
@@ -33,12 +34,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary-color);
   font-size: 18px;
 }
 
 .nav-bar {
   flex-wrap:wrap;
+  flex:auto;
+  align-items:flex-end;
 }
 
 .site-logo {
@@ -55,12 +57,12 @@ body {
 }
 
 li {
-  list-style: none;
+  list-style: none;  
 }
 
-/* nav a:hover {
+nav a:hover {
   text-decoration: none;
-} */
+}
 
 nav  li {
   cursor: pointer;
@@ -74,6 +76,11 @@ nav  li {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+}
+
+span {
+  display: inline-block;
+  padding: 0 16px 0 16px;
 }
 
 code {
