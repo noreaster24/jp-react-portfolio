@@ -11,7 +11,7 @@ function About() {
                 Hi!  
             </p>
             <p id="profile-overview">
-                I'm Joe Porrazzo and I'm a product manager that focuses on new product development, and an aspiring full-stack web developer. I love technology and I'm always looking to learn new ways to do things.
+                I'm a product manager that focuses on new product development, and an aspiring full-stack web developer. I love technology and I'm always looking to learn new ways to do things.
             </p>
             <p id="contact-me">
                 Please navigate around and checkout out some of my projects!  My contact information is below.

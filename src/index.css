@@ -21,6 +21,13 @@ main {
   background-color: var(--primary-color);
 }
 
+h1,
+h2,
+h4,
+h6 {
+  color: var(--text-color);
+}
+
 html,
 body {
   min-height: 100%;
@@ -89,7 +96,7 @@ code {
 
 #about-me {
   color: var(--text-color);
-  /* align-items: center; */
+  align-items: center;
   font-size: 1.75rem;
   padding: 20px;
   margin: 5px 0;
@@ -98,7 +105,7 @@ code {
 
 
 img {
-  border-radius: 20px;
+  border-radiu9s: 20px;
 }
 
 #salutation {
@@ -108,6 +115,78 @@ img {
 
 #contact-me {
   text-align: center;
+}
+
+.project-container {
+  width: 100%;
+}
+
+.project-card {
+  position: relative;
+  background-color: var(--secondary-color);
+  max-width: 35%;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 0 60px rgba(0,0,0,0.15);
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+  flex-direction:row;
+  justify-content: start;
+  align-items: center;
+}
+
+.project-title {
+  font-size: 28px;
+  background-color: var(--secondary-color);
+}
+
+.img-container {
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 0 40px 5px rgba(0,0,0,0.2);
+}
+
+.project-description {
+  font-size: 1.2rem;
+  word-spacing: var(--spacing-one);
+  font-weight:lighter;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.tags {
+  background-color: var(--secondary-color);
+  flex-wrap:wrap;
+  flex-wrap:wrap;
+  flex:auto;
+  align-items:flex-end;
+}
+
+.tags h6 {
+  border: 1px solid var(--accent-color);
+  border-radius: 20px;
+  max-width: 15%;
+  max-height: 10%;
+  text-align:center;
+  font-weight:bolder;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  box-shadow: 0 0 40px rgba(0,0,0,0.2);
+}
+
+.project-links {
+  background-color: var(--secondary-color);
+  flex-wrap:wrap;
+  flex:auto;
+  align-items:flex-end;
+}
+
+.project-links a {
+  color: var(--accent-color);
+  text-align: center;
+  background-color: var(--secondary-color);
 }
 
 
