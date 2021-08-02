@@ -143,6 +143,10 @@ code {
   width: 100%;
 }
 
+.project-header h1 {
+  font-size: 42px;
+}
+
 .project-cards {
   display: flex;
   flex-direction: row;
@@ -231,16 +235,29 @@ code {
   background-color: var(--secondary-color);
 }
 
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px auto;
+}
+
 .bio-container {
   display: flex;
   flex-direction: column;
+  width: 50%;
   align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+.bio-container h1 {
+  font-size: 42px;
 }
 
 .bio-img {
   border-radius: 20px;
-  width: 30%;
-  height: 30%;
+  width: 450px;
+  height: 600px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin-bottom: 30px;
 }
@@ -258,8 +275,35 @@ code {
 }
 
 .view-btn:hover {
-  background-color: var(--accent-color);
   color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.skills {
+  color: var(--text-color);
+  width: 50%;
+
+}
+
+.skills-list {
+  list-style-type: circle;
+  word-spacing: var(--spacing-four);
+  padding: 15px;
+  line-break: var(--spacing-four);
+  font-size: 28px;
+  margin: 10px 0;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.skills-list::before {
+  list-style-type: circle;
+  color: var(--accent-color);
+}
+
+.skills-list:not(:last-child) {
+  margin-bottom: 5px;
 }
 
 
