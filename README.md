@@ -6,7 +6,7 @@ THank you for viewing my professional portfolio that was built using React.JS.
 ![Professional Portfolio](./src/assets/images/professional-portfolio.png)
 
 ## LINK
-https://peaceful-mestorf-ecbdc8.netlify.app/#work
+www.joeporrazzojr.com
 
 ### User Story
 AS AN employer looking for candidates with experience building single-page applications
