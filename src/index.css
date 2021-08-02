@@ -399,4 +399,11 @@ textarea {
 	margin-bottom: 25px;
 }
 
+footer {
+  padding: 40px 35px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+}
+
 

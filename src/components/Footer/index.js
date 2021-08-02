@@ -9,4 +9,4 @@ function Footer() {
     )
 }
 
-import default Footer;
+export default Footer;

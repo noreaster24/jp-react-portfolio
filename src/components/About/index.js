@@ -1,7 +1,5 @@
 import React from 'react';
 import coverImage from '../../assets/images/JP-main.jpeg';
-import heroImage from '../../assets/images/mb-hero.webp'
-
 
 function About() {
     return (
