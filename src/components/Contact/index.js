@@ -36,12 +36,12 @@ function ContactForm() {
     }
 
     return (
-        <section>
+        <section className="contact-container">
             <h1 className="contact-header">Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name: </label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} aname="name" />
+                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <div>
                     <label htmlFor="email">Email address: </label>
