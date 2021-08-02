@@ -1,5 +1,12 @@
 import React from 'react';
-import { projects } from './project-array';
+// import { projects } from './project-array';
+import cryptoImage from '../../assets/images/cryptoknight.png';
+import budgetTrackerImage from '../../assets/images/budget-tracker.png';
+import passwordGeneratorImage from '../../assets/images/password-generator.png';
+import socialNetworkImage from '../../assets/images/social-media.png';
+import upDogImage from '../../assets/images/up-dog.png';
+import noteTakerImage from '../../assets/images/note-able.png';
+
 
 function Projects() {
 
@@ -8,29 +15,111 @@ function Projects() {
             <div className="project-header">
                 <h1>Projects</h1>
             </div>
-            <section className="project-cards">
-                {projects.map((p, i) => {
-                    <li className="project-card">
-                        {projects.map((p) => (
-                            <li key={i}>
-                                <h2 className="project-title">{p.title}</h2>
-                                <div className="img-container">
-                                    <img src={p.image} alt='' />
-                                </div>
-                                <h4 className="project-description">{p.description}</h4>
-                                <div className="tags">
-                                    <h6>projects.map(p.tags)</h6>
-                                </div>
-                                <div className="project-links">
-                                    <a href="{p.source}">Source</a>
-                                    <a href="{p.visit}">Visit</a>
-                                </div>
-                            </li>
-                        ))}
-                    </li>
-                })
-                };
-            </section>
+            <ul className="project-cards">
+                <li className="project-card">
+                    <h2 className="project-title">CryptoKnight</h2>
+                    
+                        <img src={cryptoImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">Front-end cryptocurrency price tracker and wallet.</h4>
+                    <div className="tags">
+                        <h6>Javascript</h6>
+                        <h6>jQuery</h6>
+                        <h6>CSS</h6>
+                        <h6>HTML</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/noreaster24/team-project-1">Source</a>
+                        <a href="https://noreaster24.github.io/team-project-1/">Visit</a>
+                    </div>
+                </li>
+
+                <li className="project-card">
+                    <h2 className="project-title">Budget Tracker</h2>
+                    
+                        <img src={budgetTrackerImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">Full-stack progressive web app with offline caching.</h4>
+                    <div className="tags">
+                        <h6>Javascript</h6>
+                        <h6>Express.JS</h6>
+                        <h6>MongoDB</h6>
+                        <h6>CSS</h6>
+                        <h6>HTML</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/noreaster24/budget-tracker">Source</a>
+                        <a href="https://lit-anchorage-32415.herokuapp.com/">Visit</a>
+                    </div>
+                </li>
+
+                <li className="project-card">
+                    <h2 className="project-title">Password Generator</h2>
+                    
+                        <img src={passwordGeneratorImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">Generate secure passwords</h4>
+                    <div className="tags">
+                        <h6>Javascript</h6>
+                        <h6>CSS</h6>
+                        <h6>HTML</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/noreaster24/password-generator">Source</a>
+                        <a href="https://noreaster24.github.io/password-generator/">Visit</a>
+                    </div>
+                </li>
+
+                <li className="project-card">
+                    <h2 className="project-title">Social Network API</h2>
+                    
+                        <img src={socialNetworkImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">NoSQL database project for sharing posts and commenting on user's accounts.</h4>
+                    <div className="tags">
+                        <h6>NoSQL</h6>
+                        <h6>Express.JS</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/noreaster24/Social-Sharing-App">Source</a>
+                        <a href="https://drive.google.com/file/d/12BMuQXcn8oOu4Pi-ps2tZiI5mU8xAVdy/view">Visit</a>
+                    </div>
+                </li> 
+
+                <li className="project-card">
+                    <h2 className="project-title">What's Up Dog</h2>
+                    
+                        <img src={upDogImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">Full-stack social network web app for pet lovers to interact.</h4>
+                    <div className="tags">
+                        <h6>MongoDB</h6>
+                        <h6>Express.JS</h6>
+                        <h6>Handlebars.JS</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/noreaster24/dam-stud">Source</a>
+                        <a href="https://serene-ocean-75643.herokuapp.com/">Visit</a>
+                    </div>
+                </li>
+
+                <li className="project-card">
+                    <h2 className="project-title">Note-Able</h2>
+                    
+                        <img src={noteTakerImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">Express.JS web app to take and store notes.</h4>
+                    <div className="tags">
+                        <h6>HTML</h6>
+                        <h6>Express.JS</h6>
+                        <h6>JavaScript</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/noreaster24/Note-able">Source</a>
+                        <a href="https://gentle-reef-45514.herokuapp.com/">Visit</a>
+                    </div>
+                </li>
+            </ul>
         </div>
     )
 };
