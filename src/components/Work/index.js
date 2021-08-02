@@ -8,7 +8,7 @@ function Work() {
             <div className="bio-container">
                 <h1>Work Experience</h1>
                 <img className="bio-img" src={workExperienceImage} alt="JP Work Experience" />
-                <button onClick="https://drive.google.com/file/d/0B_lMIZ5YdLI_NjBRRGc3NDdlejA/view?usp=sharing&resourcekey=0-e1z-Gcx1ql8z9Fw9jVUshQ" className="view-btn">View Resume</button>
+                <button onClick="https://drive.google.com/file/d/0B_lMIZ5YdLI_NjBRRGc3NDdlejA/view?usp=sharing&resourcekey=0-e1z-Gcx1ql8z9Fw9jVUshQ" className="button">View Resume</button>
             </div>
             <div className="skills">
                 <ul className="skills-list">

@@ -262,7 +262,7 @@ code {
   margin-bottom: 30px;
 }
 
-.view-btn {
+.button {
   background-color: var(--secondary-color);
   color: var(--accent-color);
   border-radius: 20px;
