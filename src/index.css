@@ -45,9 +45,10 @@ body {
 }
 
 .nav-bar {
-  flex-wrap:wrap;
-  flex:auto;
-  align-items:flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: '/assets/images/website-Design-Background.png';
 }
 
 .site-logo {
@@ -97,27 +98,45 @@ code {
   font-family: 'Open Sans', sans-serif;
 }
 
-#about-me {
+.about-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-me {
   color: var(--text-color);
-  align-items: center;
+  display: column;
+  justify-content: space-evenly;
+  align-items: left;
   font-size: 1.75rem;
-  padding: 20px;
+  word-spacing: var(--spacing-two);
+  padding: 0 40px;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 
-img {
+.profile-img {
+  width: 25%;
   border-radius: 20px;
+  box-shadow: 0 0 60px rgba(0,0,0,0.15);
 }
 
-#salutation {
-  font-size: 2.25rem;
+.salutation {
+  font-size: 3.25rem;
   font-weight: bold;
 }
 
+.hero-img {
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  align-content: center;
+}
+
 #contact-me {
-  text-align: center;
+  text-align: left;
+  font-weight: lighter;
 }
 
 .project-container {
