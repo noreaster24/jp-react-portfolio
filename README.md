@@ -5,6 +5,9 @@ THank you for viewing my professional portfolio that was built using React.JS.
 
 ![Professional Portfolio](./src/assets/images/professional-portfolio.png)
 
+## LINK
+https://noreaster24.github.io/jp-react-portfolio/
+
 ### User Story
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
