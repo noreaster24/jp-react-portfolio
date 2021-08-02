@@ -12,7 +12,7 @@ function About() {
                     Hi!
                 </p>
                 <p id="profile-overview">
-                    I'm a product manager that focuses on new product development, and an aspiring full-stack web developer. I love technology and I'm always looking to learn new ways to do things.
+                    I'm a product manager that focuses on new product development and a recreational full-stack web developer. I'm always looking to learn new technologies.
                 </p>
                 <p className="contact-me">
                     Please navigate around and check out out some of my projects!  Click on 'Contact' to connect.
