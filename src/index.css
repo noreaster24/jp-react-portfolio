@@ -406,4 +406,51 @@ footer {
   justify-content: center;
 }
 
+@media screen and (max-width: 980px) {
+  .nav-item {
+    font-size: 24px;
+    padding: 5px 10px 0 10px;
 
+  }
+
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+  }
+
+  .profile-img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .social-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+  }
+
+  .project.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .project-img {
+    width: 30%;
+    height: 20%
+  }
+
+  .experience {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
