@@ -5,7 +5,7 @@ import budgetTrackerImage from '../../assets/images/budget-tracker.png';
 import passwordGeneratorImage from '../../assets/images/password-generator.png';
 import socialNetworkImage from '../../assets/images/social-media.png';
 import upDogImage from '../../assets/images/up-dog.png';
-import noteTakerImage from '../../assets/images/note-able.png';
+import tahImage from '../../assets/images/TAH.png';
 
 
 function Projects() {
@@ -31,6 +31,26 @@ function Projects() {
                     <div className="project-links">
                         <a href="https://github.com/noreaster24/team-project-1">Source</a>
                         <a href="https://noreaster24.github.io/team-project-1/">Visit</a>
+                    </div>
+                </li>
+
+                <li className="project-card">
+                    <h2 className="project-title">Teaching Artist Hub</h2>
+                    
+                        <img src={tahImage} className="project-img" alt='' />
+                    
+                    <h4 className="project-description">Calendar and Communication platform for non-profit arts organization</h4>
+                    <div className="tags">
+                        <h6>React</h6>
+                        <h6>Express.JS</h6>
+                        <h6>JavaScript</h6>
+                        <h6>GraphQL</h6>
+                        <h6>Node.js</h6>
+                        <h6>MongoDB</h6>
+                    </div>
+                    <div className="project-links">
+                        <a href="https://github.com/LindseyKrause/Teaching-Artist-Hub">Source</a>
+                        <a href="https://teaching-artist-hub.herokuapp.com/">Visit</a>
                     </div>
                 </li>
 
@@ -103,22 +123,7 @@ function Projects() {
                     </div>
                 </li>
 
-                <li className="project-card">
-                    <h2 className="project-title">Note-Able</h2>
-                    
-                        <img src={noteTakerImage} className="project-img" alt='' />
-                    
-                    <h4 className="project-description">Express.JS web app to take and store notes.</h4>
-                    <div className="tags">
-                        <h6>HTML</h6>
-                        <h6>Express.JS</h6>
-                        <h6>JavaScript</h6>
-                    </div>
-                    <div className="project-links">
-                        <a href="https://github.com/noreaster24/Note-able">Source</a>
-                        <a href="https://gentle-reef-45514.herokuapp.com/">Visit</a>
-                    </div>
-                </li>
+                
             </ul>
         </div>
     )
